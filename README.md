@@ -1,12 +1,10 @@
 # Open Street Map History plugin
 
-Based upon the code of [Mibew Google Maps plugin](https://github.com/Mibew/google-maps-plugin).
-
-Displays a visitor's location using Open Street Map service.
+Enables functionality provided by Open Street Map plugin on the chats history page.
 
 ## Installation
 
-1. Get the archive with the plugin sources. You can download it from the [official site](https://mibew.org/plugins#mibew-open-street-map) or build the plugin from sources.
+1. Get the archive with the plugin sources. You can download it from the [official site](https://mibew.org/plugins#mibew-open-street-map-history) or build the plugin from sources.
 
 2. Untar/unzip the plugin's archive.
 
