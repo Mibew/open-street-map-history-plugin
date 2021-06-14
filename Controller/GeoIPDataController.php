@@ -44,7 +44,7 @@ class GeoIPDataController extends AbstractController
         $osm_plugin = PluginManager::getInstance()->getPlugin('Mibew:OpenStreetMap');
         $osm_plugin->usersFunctionCallHandler($geo_data);
 
-        $results = $geo_data['errorCode'] ? array() : $geo_data['results'];
+        $results = array_key_exists('errorCode', $geo_data) && $geo_data['errorCode'] ? array() : $geo_data['results'];
         return new JsonResponse($results);
     }
 }
