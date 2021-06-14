@@ -64,7 +64,7 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
      */
     public static function getVersion()
     {
-        return '0.0.1';
+        return '0.0.2';
     }
 
     /**
